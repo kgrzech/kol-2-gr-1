@@ -1,6 +1,9 @@
 Feature: Fikstury dla tabeli Ireland
 
   Scenario: Lista fixtur z tabeli Ireland
+    Given I am on homepage
+    Then I should see "Ireland"
+     When I follow "Ireland" 
     Given I am on "ireland.html"
      Then I should see "Dublin"
       And I should see "527612"
