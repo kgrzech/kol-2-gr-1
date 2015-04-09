@@ -1,0 +1,8 @@
+#
+# Klasa: Ireland
+# Cities in Ireland
+#
+
+- { name: "Dublin", population: 528000 }
+- { name: "Cork", population: 119000 }
+- { name: "Limerick", population: 57000 }
