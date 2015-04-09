@@ -1,0 +1,8 @@
+#
+# Klasa: Japan
+# miasta w Japonii
+#
+
+- { name: "Tokio", population: 13161751 }
+- { name: "Osaka", population: 2663096 }
+- { name: "Kawasaki", population: 1385003 }
