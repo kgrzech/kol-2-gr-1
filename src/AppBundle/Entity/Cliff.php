@@ -33,7 +33,7 @@ class Cliff
      *
      * @ORM\Column(name="height", type="integer")
      */
-    private $height
+    private $height;
 
 
     /**
@@ -70,7 +70,7 @@ class Cliff
     }
 
     /**
-     * Set height
+     * Set height 
      *
      * @param integer $height
      * @return Cliff
