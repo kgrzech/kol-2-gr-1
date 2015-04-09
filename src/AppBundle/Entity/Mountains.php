@@ -31,9 +31,9 @@ class Mountains
     /**
      * @var integer
      *
-     * @ORM\Column(name="[C[C[C[[C[C[C[A[C[B[B[C[C[D[Cheight", type="integer")
+     * @ORM\Column(name="height", type="integer")
      */
-    private $[C[C[C[[C[C[C[A[C[B[B[C[C[D[Cheight;
+    private $height;
 
 
     /**
@@ -70,25 +70,25 @@ class Mountains
     }
 
     /**
-     * Set [C[C[C[[C[C[C[A[C[B[B[C[C[D[Cheight
+     * Set height
      *
-     * @param integer $[C[C[C[[C[C[C[A[C[B[B[C[C[D[Cheight
+     * @param integer $height
      * @return Mountains
      */
-    public function set[C[C[C[[C[C[C[A[C[B[B[C[C[D[Cheight($[C[C[C[[C[C[C[A[C[B[B[C[C[D[Cheight)
+    public function setheight($height)
     {
-        $this->[C[C[C[[C[C[C[A[C[B[B[C[C[D[Cheight = $[C[C[C[[C[C[C[A[C[B[B[C[C[D[Cheight;
+        $this->height = $height;
 
         return $this;
     }
 
     /**
-     * Get [C[C[C[[C[C[C[A[C[B[B[C[C[D[Cheight
+     * Get height
      *
      * @return integer 
      */
-    public function get[C[C[C[[C[C[C[A[C[B[B[C[C[D[Cheight()
+    public function getheight()
     {
-        return $this->[C[C[C[[C[C[C[A[C[B[B[C[C[D[Cheight;
+        return $this->height;
     }
 }
