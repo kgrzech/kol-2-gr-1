@@ -22,7 +22,7 @@ class LoadAntybiotics implements FixtureInterface
         foreach ($yml as $item) {
             $antybiotic = new Antybiotic();
             $antybiotic->setName($item['name']);
-            $antybiotic->setArea($item['classification']);
+            $antybiotic->setClassification($item['classification']);
             $manager->persist($antybiotic);
         }
 
