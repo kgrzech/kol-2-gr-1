@@ -1,3 +1,3 @@
 - { name: "Korat", age: 5 }
-- { name: "LaPerm", origin: 7}
-- { name: "Burmilla", origin: 4 }
+- { name: "LaPerm", age: 7}
+- { name: "Burmilla", age: 4 }
