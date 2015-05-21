@@ -1,0 +1,8 @@
+#
+# Klasa: phone
+# ceny
+#
+
+- { name: "Nokia", price: 500 }
+- { name: "Samsung", price: 600 }
+- { name: "HTC", price: 700 }
