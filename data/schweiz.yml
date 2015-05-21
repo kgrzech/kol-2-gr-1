@@ -1,0 +1,6 @@
+## YAML Template.
+---
+
+- { name: "Genfersee", area: 580 }
+- { name: "Bodensee", area: 536 }
+- { name: "Luganersee", area: 48 }
