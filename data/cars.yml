@@ -1,0 +1,8 @@
+#
+# Klasa: Notebook
+# ceny
+#
+
+- { name: "Honda", price: 30000 }
+- { name: "Audi", price: 40000 }
+- { name: "Saab", price: 50000 }
